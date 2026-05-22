@@ -137,16 +137,15 @@ async def start_session(context: JobContext):
 
 | Category | Services |
 |---|---|
-| **Real-time Models** | OpenAI, Gemini, AWS Nova Sonic, Azure Voice Live |
-| **Speech-to-Text (STT)** | OpenAI, Google, Azure AI Speech, Azure OpenAI, Sarvam AI, Deepgram, Cartesia, AssemblyAI, Navana |
-| **Language Models (LLM)** | OpenAI, Azure OpenAI, Google, Sarvam AI, Anthropic, Cerebras |
-| **Text-to-Speech (TTS)** | OpenAI, Google, AWS Polly, Azure AI Speech, Azure OpenAI, Deepgram, Sarvam AI, ElevenLabs, Cartesia, Resemble AI, Smallest AI, Speechify, InWorld, Neuphonic, Rime AI, Hume AI, Groq, LMNT AI, Papla Media |
-| **Voice Activity Detection** | SileroVAD |
-| **Turn Detection** | Namo Turn Detector |
-| **Virtual Avatar** | Simli, Anam |
-| **LLM Orchestration** | LangChain, LangGraph |
-| **Denoise** | RNNoise |
-
+| **Real-time Models** | [OpenAI](https://docs.videosdk.live/ai_agents/plugins/realtime/openai) · [Gemini](https://docs.videosdk.live/ai_agents/plugins/realtime/google-live-api) · [AWS Nova Sonic](https://docs.videosdk.live/ai_agents/plugins/realtime/aws-nova-sonic) · [Azure Voice Live](https://docs.videosdk.live/ai_agents/plugins/realtime/azure-voice-live) |
+| **Speech-to-Text (STT)** | [OpenAI](https://docs.videosdk.live/ai_agents/plugins/stt/openai) · [Google](https://docs.videosdk.live/ai_agents/plugins/stt/google) · [Azure AI Speech](https://docs.videosdk.live/ai_agents/plugins/stt/azure-ai-stt) · [Azure OpenAI](https://docs.videosdk.live/ai_agents/plugins/stt/azureopenai) · [Sarvam AI](https://docs.videosdk.live/ai_agents/plugins/stt/sarvam-ai) · [Deepgram](https://docs.videosdk.live/ai_agents/plugins/stt/deepgram) · [Cartesia](https://docs.videosdk.live/ai_agents/plugins/stt/cartesia-stt) · [AssemblyAI](https://docs.videosdk.live/ai_agents/plugins/stt/assemblyai) · [Navana](https://docs.videosdk.live/ai_agents/plugins/stt/navana) |
+| **Language Models (LLM)** | [OpenAI](https://docs.videosdk.live/ai_agents/plugins/llm/openai) · [Azure OpenAI](https://docs.videosdk.live/ai_agents/plugins/llm/azureopenai) · [Google](https://docs.videosdk.live/ai_agents/plugins/llm/google-llm) · [Sarvam AI](https://docs.videosdk.live/ai_agents/plugins/llm/sarvam-ai-llm) · [Anthropic](https://docs.videosdk.live/ai_agents/plugins/llm/anthropic-llm) · [Cerebras](https://docs.videosdk.live/ai_agents/plugins/llm/Cerebras-llm) |
+| **Text-to-Speech (TTS)** | [OpenAI](https://docs.videosdk.live/ai_agents/plugins/tts/openai) · [Google](https://docs.videosdk.live/ai_agents/plugins/tts/google-tts) · [AWS Polly](https://docs.videosdk.live/ai_agents/plugins/tts/aws-polly-tts) · [Azure AI Speech](https://docs.videosdk.live/ai_agents/plugins/tts/azure-ai-tts) · [Azure OpenAI](https://docs.videosdk.live/ai_agents/plugins/tts/azureopenai) · [Deepgram](https://docs.videosdk.live/ai_agents/plugins/tts/deepgram) · [Sarvam AI](https://docs.videosdk.live/ai_agents/plugins/tts/sarvam-ai-tts) · [ElevenLabs](https://docs.videosdk.live/ai_agents/plugins/tts/eleven-labs) · [Cartesia](https://docs.videosdk.live/ai_agents/plugins/tts/cartesia-tts) · [Resemble AI](https://docs.videosdk.live/ai_agents/plugins/tts/resemble-ai-tts) · [Smallest AI](https://docs.videosdk.live/ai_agents/plugins/tts/smallestai-tts) · [Speechify](https://docs.videosdk.live/ai_agents/plugins/tts/speechify-tts) · [InWorld](https://docs.videosdk.live/ai_agents/plugins/tts/inworld-ai-tts) · [Neuphonic](https://docs.videosdk.live/ai_agents/plugins/tts/neuphonic-tts) · [Rime AI](https://docs.videosdk.live/ai_agents/plugins/tts/rime-ai-tts) · [Hume AI](https://docs.videosdk.live/ai_agents/plugins/tts/hume-ai-tts) · [Groq](https://docs.videosdk.live/ai_agents/plugins/tts/groq-ai-tts) · [LMNT AI](https://docs.videosdk.live/ai_agents/plugins/tts/lmnt-ai-tts) · [Papla Media](https://docs.videosdk.live/ai_agents/plugins/tts/papla-media) |
+| **Voice Activity Detection** | [SileroVAD](https://docs.videosdk.live/ai_agents/plugins/silero-vad) |
+| **Turn Detection** | [Namo Turn Detector](https://docs.videosdk.live/ai_agents/plugins/namo-turn-detector) |
+| **Virtual Avatar** | [Simli](https://docs.videosdk.live/ai_agents/core-components/avatar) · [Anam](https://docs.videosdk.live/ai_agents/plugins/avatar/anam) |
+| **LLM Orchestration** | [LangChain](https://docs.videosdk.live/ai_agents/plugins/llm/langchain) · [LangGraph](https://docs.videosdk.live/ai_agents/plugins/llm/langgraph) |
+| **Denoise** | [RNNoise](https://docs.videosdk.live/ai_agents/core-components/de-noise) |
 
 ## Examples
 
